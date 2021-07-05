@@ -1,0 +1,164 @@
+/* common css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Head Section */
+
+#head {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.head_left {
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.head_left h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(53, 48, 48);
+}
+
+.head_heading span {
+    color: chocolate
+}
+
+.head_left p {
+    font-size: 16px;
+    color: rgb(78, 72, 72);
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.head_left a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(chocolate, tomato);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.head_img {
+    width: 50%;
+}
+
+.head_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* end head section */
+
+
+/* About Section */
+
+#about {
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about_img {
+    width: 50%;
+}
+
+.about_img img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 150px;
+}
+
+.about_right {
+    width: 50%;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.about_right h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about_right p {
+    font-size: 16px;
+    color: rgb(78, 72, 72);
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.about_right a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(chocolate, tomato);
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+
+/* end about */
+
+
+/* Recipie Section */
+
+#recipie {
+    margin-bottom: 100px;
+}
+
+.recipie_main {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.recipie_main h3 {
+    font-size: 30px;
+}
+
+.recipie_blog {
+    display: flex;
+}
+
+.recipie_three img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Testimonial Section */
+
+
+/* Footer Section */
+
+#footer {
+    background-color: #000;
+    padding: 50px 0px;
+}
+
+.footer_heading {
+    text-align: center;
+}
+
+.footer_heading span {
+    color: darkorange;
+}
+
+.footer_heading h3 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer_heading p {
+    color: #fff;
+}
